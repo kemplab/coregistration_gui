@@ -1,0 +1,52 @@
+2022-05-13 15:55:32,840 INFO User: tanya
+2022-05-13 15:55:32,840 INFO Python 3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)] on win32
+2022-05-13 15:55:32,848 INFO loaded imgs: C:/Users/tanya/Desktop/Sample runs/Sample run inputs/confocal/dapi.tif C:/Users/tanya/Desktop/Sample runs/Sample run inputs/average.png
+2022-05-13 15:55:32,848 INFO min cell size: 14px. max cell size: 35px.
+2022-05-13 15:55:33,351 INFO closing with kernel size (35,35) px, blurring
+2022-05-13 15:55:46,580 INFO maldi scale: 10.0 um/px. confocal scale: 0.72 um/px.
+2022-05-13 15:55:46,605 INFO transforming maldi img
+2022-05-13 15:55:46,605 INFO initial alignment params, scaled for res: [0, 0, 0, 1.0207161694150544]
+2022-05-13 15:55:47,035 WARNING Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2022-05-13 15:55:49,499 INFO beginning dual annealment
+2022-05-13 15:57:26,171 INFO Rotation (rad): 0.02485 X shift: 25.23833 Y shift: 23.3692 Scale: 1.04568
+2022-05-13 15:57:28,715 INFO maldi output to C:/Users/tanya/Desktop/Sample runs/Sample outputs/CoregistrationProject//resized MALDI/
+2022-05-13 15:57:28,715 INFO confocal output to C:/Users/tanya/Desktop/Sample runs/Sample outputs/CoregistrationProject//resized confocal/
+2022-05-13 15:57:28,780 WARNING Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
+2022-05-13 16:10:02,111 INFO Beginning segmentation run.
+2022-05-13 16:10:02,111 INFO min radius: 7px. max radius: 17px.
+2022-05-13 16:10:02,111 INFO Num thresholds: 10
+2022-05-13 16:10:02,111 INFO Upper threshold: 1.25 standard deviations above mean intensity
+2022-05-13 16:10:02,111 INFO segmenting as clustered colony
+2022-05-13 16:10:04,521 INFO beginning thresholding
+2022-05-13 16:12:11,835 INFO beginning laplacian of gaussian, sigmas [ 4.94974747  5.65685425  6.36396103  7.07106781  7.77817459  8.48528137
+  9.19238816  9.89949494 10.60660172 11.3137085  12.02081528]
+2022-05-13 16:12:25,915 INFO finding seeds
+2022-05-13 16:12:28,229 INFO watershedding
+2022-05-13 16:12:29,890 INFO cleaning labels by size, overlaying
+2022-05-13 16:12:33,832 INFO saving raw labels: C:/Users/tanya/Desktop/Sample runs/Sample outputs/CoregistrationProject//segmentation out/labels.csv
+2022-05-13 16:13:09,133 INFO dapi.tif cropped and overlaid
+2022-05-13 16:13:19,424 INFO ncam1.tif cropped and overlaid
+2022-05-13 16:13:28,892 INFO ssea1.tif cropped and overlaid
+2022-05-13 16:13:37,932 INFO tra181.tif cropped and overlaid
+2022-05-13 16:13:47,131 INFO 835.518 cropped and overlaid
+2022-05-13 16:13:56,202 INFO 940.592 cropped and overlaid
+2022-05-13 16:13:56,368 INFO labels output to C:/Users/tanya/Desktop/Sample runs/Sample outputs/CoregistrationProject//segmentation out/metrics.csv
+2022-05-13 16:15:03,344 INFO Generating cell-cell connection length: 40.560538871916464
+2022-05-13 16:15:03,344 INFO finding distances between cells
+2022-05-13 16:15:04,140 INFO finding neighborhood regions of cells
+2022-05-13 16:15:05,720 INFO calculating metrics for dapi
+2022-05-13 16:15:06,192 INFO calculating metrics for ncam1
+2022-05-13 16:15:06,998 INFO calculating metrics for ssea1
+2022-05-13 16:15:07,467 INFO calculating metrics for tra181
+2022-05-13 16:15:07,926 INFO calculating metrics for mz 835.518
+2022-05-13 16:15:08,476 INFO calculating metrics for mz 940.592
+2022-05-13 16:15:08,946 INFO calculating which cells are edge cells
+2022-05-13 16:15:09,326 INFO clustering dapi
+2022-05-13 16:15:09,693 INFO clustering ncam1
+2022-05-13 16:15:09,995 INFO clustering ssea1
+2022-05-13 16:15:10,362 INFO clustering tra181
+2022-05-13 16:15:10,711 INFO clustering mz 835.518
+2022-05-13 16:15:11,119 INFO clustering mz 940.592
+2022-05-13 16:15:11,459 INFO calculating edge dists
+2022-05-13 16:15:20,516 INFO generating visualizations
+2022-05-13 16:23:05,233 INFO visualizations took 7 m to generate
