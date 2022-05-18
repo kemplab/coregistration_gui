@@ -1,0 +1,41 @@
+2022-05-13 16:43:35,267 INFO User: tanya
+2022-05-13 16:43:35,267 INFO Python 3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)] on win32
+2022-05-13 16:43:35,935 INFO transforming maldi img
+2022-05-13 16:43:36,483 INFO Beginning segmentation run.
+2022-05-13 16:43:36,483 INFO min radius: 7px. max radius: 17px.
+2022-05-13 16:43:36,483 INFO Num thresholds: 10
+2022-05-13 16:43:36,483 INFO Upper threshold: 0.75 standard deviations above mean intensity
+2022-05-13 16:43:36,483 INFO segmenting as clustered colony
+2022-05-13 16:43:38,704 INFO beginning thresholding
+2022-05-13 16:45:40,711 INFO beginning laplacian of gaussian, sigmas [ 4.94974747  5.65685425  6.36396103  7.07106781  7.77817459  8.48528137
+  9.19238816  9.89949494 10.60660172 11.3137085  12.02081528]
+2022-05-13 16:45:54,637 INFO finding seeds
+2022-05-13 16:45:56,483 INFO watershedding
+2022-05-13 16:45:58,002 INFO cleaning labels by size, overlaying
+2022-05-13 16:46:01,585 INFO saving raw labels: C:/Users/tanya/Desktop/Sample runs/Sample outputs/SegmentationProject//segmentation out/labels.csv
+2022-05-13 16:46:35,535 INFO dapi.tif cropped and overlaid
+2022-05-13 16:46:45,465 INFO ncam1.tif cropped and overlaid
+2022-05-13 16:46:55,577 INFO ssea1.tif cropped and overlaid
+2022-05-13 16:47:05,591 INFO tra181.tif cropped and overlaid
+2022-05-13 16:47:15,498 INFO 835.518 cropped and overlaid
+2022-05-13 16:47:25,468 INFO 940.592 cropped and overlaid
+2022-05-13 16:47:25,650 INFO labels output to C:/Users/tanya/Desktop/Sample runs/Sample outputs/SegmentationProject//segmentation out/metrics.csv
+2022-05-13 16:47:40,689 INFO Generating cell-cell connection length: 37.62027628036637
+2022-05-13 16:47:40,689 INFO finding distances between cells
+2022-05-13 16:47:41,517 INFO finding neighborhood regions of cells
+2022-05-13 16:47:43,037 INFO calculating metrics for dapi
+2022-05-13 16:47:43,610 INFO calculating metrics for ncam1
+2022-05-13 16:47:44,025 INFO calculating metrics for ssea1
+2022-05-13 16:47:44,846 INFO calculating metrics for tra181
+2022-05-13 16:47:45,424 INFO calculating metrics for mz 835.518
+2022-05-13 16:47:45,793 INFO calculating metrics for mz 940.592
+2022-05-13 16:47:46,394 INFO calculating which cells are edge cells
+2022-05-13 16:47:46,796 INFO clustering dapi
+2022-05-13 16:47:47,160 INFO clustering ncam1
+2022-05-13 16:47:47,469 INFO clustering ssea1
+2022-05-13 16:47:47,829 INFO clustering tra181
+2022-05-13 16:47:48,162 INFO clustering mz 835.518
+2022-05-13 16:47:48,639 INFO clustering mz 940.592
+2022-05-13 16:47:49,093 INFO calculating edge dists
+2022-05-13 16:47:58,959 INFO generating visualizations
+2022-05-13 16:56:27,200 INFO visualizations took 8 m to generate
