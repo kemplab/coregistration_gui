@@ -538,7 +538,7 @@ def output_segmentation(cropped_confocal, resized_maldis, cells, metrics_output_
                                                  cofn + fname[:-4] + ".png")
                     excel_data.append(overlay_conf_out[0])
                     excel_header.append(fname[:-4])
-                    conf_figs.append(overlay_conf_out[2])
+                    #conf_figs.append(overlay_conf_out[2])
                     logging.info(fname + ' cropped and overlaid')
                 except ValueError:
                     logging.warning('non-grayscale image in confocal folder (cannot overlay): ' + fname)
@@ -563,7 +563,7 @@ def output_segmentation(cropped_confocal, resized_maldis, cells, metrics_output_
         pv.set(pv.get() + f)
         excel_data.append(overlay_out[0])
         excel_header.append(name)
-        maldi_figs.append(overlay_out[2])
+        #maldi_figs.append(overlay_out[2])
         logging.info(str(ions[ind]) + ' cropped and overlaid')
 
 
@@ -579,7 +579,7 @@ def output_segmentation(cropped_confocal, resized_maldis, cells, metrics_output_
     logging.info('labels output to '+csv_output)
     pv.set(pv.get() + f)
 
-    return conf_figs, maldi_figs
+    #return conf_figs, maldi_figs
 
 def LoG(low, high, step, confocal_2, pv):
     """
